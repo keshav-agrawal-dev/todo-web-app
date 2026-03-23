@@ -5,7 +5,7 @@ This is a simple and responsive Todo App built using HTML, CSS and JavaScript. I
 ---
 
 ## Live Demo
-
+https://todo-web-keshav.netlify.app
 
 ## Features
 - Add new tasks
