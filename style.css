@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  padding: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.main-content .input-box {
+  background-color: white;
+  border-radius: 4px;
+  min-width: 100%;
+  padding: 24px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.input-box input {
+  height: 36px;
+  flex: 3;
+  outline: none;
+  border-radius: 4px;
+  padding-inline: 8px;
+  border: 1px solid #ddd;
+}
+
+.input-box button {
+  height: 36px;
+  flex: 1;
+  background-color: darkorchid;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.main-content .todo-box {
+  background-color: white;
+  min-width: 100%;
+  padding: 28px 16px;
+  border-radius: 4px;
+}
+
+.todo-box h4 {
+  text-align: center;
+}
+
+.todo-box ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+}
+
+.todo-box ul li span {
+  font-size: 14.3333px;
+  font-weight: 600;
+  user-select: none;
+  cursor: pointer;
+}
+
+.todo-box ul li span.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-box ul li i {
+  background-color: darkorchid;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  min-width: 32px;
+  min-height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
